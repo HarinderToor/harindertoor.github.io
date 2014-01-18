@@ -31,6 +31,7 @@ body {
   margin: 0;
 }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::selection */
 ::selection,
 ::-moz-selection {
   background-color: #88adc9;
