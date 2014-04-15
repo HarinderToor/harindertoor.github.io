@@ -362,6 +362,7 @@ p, blockquote, ul, ol, dl, menu, pre {
   -o-transition: background-color 0.1s ease;
   transition: background-color 0.1s ease;
 }
+
 .btn:hover, .btn:focus {
   background-color: #bfbfbf;
 }
@@ -370,11 +371,20 @@ p, blockquote, ul, ol, dl, menu, pre {
   top: 1px;
 }
 
+.article {
+  margin: 20px 0px 40px 0px; 
+  padding: 10px 10px; 
+  background: #f2f2f2;
+}
+
+.h2-heading {
+  border-bottom: 1px solid #ccc;
+}
 
 @media (min-width: 480px) {
   /* 768px */
   .island {
-    padding: 4em;
+    padding: 1em;
   }
 
   .post--listing .post__title {
